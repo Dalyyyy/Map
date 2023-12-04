@@ -2,29 +2,6 @@ import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
-/*
-        DepartementHashSet genDep = new DepartementHashSet();
-
-        Departement dep1 = new Departement(1,"1",0);
-        Departement dep2 = new Departement(2,"1",0);
-        Departement dep3 = new Departement(3,"1",0);
-        Departement dep4 = new Departement(4,"1",0);
-        Departement dep5 = new Departement(5,"1",0);
-        Departement dep6 = new Departement(6,"1",0);
-
-
-        genDep.ajouterDepartement(dep2);
-        genDep.ajouterDepartement(dep6);
-        genDep.ajouterDepartement(dep3);
-        genDep.ajouterDepartement(dep5);
-        genDep.ajouterDepartement(dep1);
-        genDep.ajouterDepartement(dep4);
-
-        genDep.displayDepartement();
-
-        TreeSet<Departement> sortedlist = genDep.trierDepartementById();
-        System.out.println(sortedlist)
- */
         AffectationHashMap depHashset = new AffectationHashMap();
         Departement dep1 = new Departement(41,"1",0);
         Departement dep2 = new Departement(62,"2",0);
